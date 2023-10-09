@@ -1,8 +1,8 @@
-const testVar = "hi"
+// Write your code here!
+const body = document.querySelector('body')
+body.removeChild(document.querySelector('#main'));
 
-document.querySelector("main#main").remove();
-
-const newHeader = document.createElement("h1");
-newHeader.id = "victory"
-newHeader.innerHTML = "Flatiron School is the champion!";
-newHeader.className = "victory";
+const newHeader = document.createElement('h1');
+newHeader.id = 'victory';
+newHeader.textContent = 'Sally is the champion in coding';
+body.appendChild(newHeader);
